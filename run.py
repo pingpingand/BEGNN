@@ -9,7 +9,7 @@ from trainer import train
 from torch.utils.data import DataLoader
 
 
-parser = argparse.ArgumentParser(description='Pytorch TextIGN Training')
+parser = argparse.ArgumentParser(description='Training')
 parser.add_argument('--dataset', default='R8', help='Training dataset')  # 'mr','ohsumed','R8','R52'
 # parser.add_argument('--learning_rate', default=5e-3, type=float, help='Initial learning rate.')
 parser.add_argument('--learning_rate', default=5e-5, type=float, help='Initial learning rate.')
